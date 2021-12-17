@@ -3,8 +3,10 @@ package com.khilkoa.market.basket.controller;
 import com.khilkoa.market.basket.dto.request.CalculateBasketDtoRequest;
 import com.khilkoa.market.basket.dto.response.CalculatedBasketDtoResponse;
 import com.khilkoa.market.basket.service.BasketService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Контроллер Корзин
